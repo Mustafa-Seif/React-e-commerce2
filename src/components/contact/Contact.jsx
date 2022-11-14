@@ -5,7 +5,7 @@ import aboutIMG      from '../../assets/contact-us-customer-service-illustration
 const Contact = () => {
   return (
     <div className='container mt-5'>
-    <div className='row text-center mb-5'>
+    <div className='row text-center mb-5 '>
       <h1>Contact With Us</h1>
       <hr/>
     </div>
@@ -27,7 +27,7 @@ const Contact = () => {
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       <div className='col-6'>
-        <img src={aboutIMG} alt="" width='100%' />
+        <img src={aboutIMG} alt="img" width='100%' />
       </div>
       </div>
     </div>
